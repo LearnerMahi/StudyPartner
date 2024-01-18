@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StudyPartner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#800000FF</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="android:statusBarColor">#800000FF</item>
+        <item name="android:textColorPrimary">@color/black</item>
+
+    </style>
+
+    <style name="Theme.StudyPartner" parent="Base.Theme.StudyPartner" />
+    <style name="ThemeOverlay.AppCompat.navTheme"
+
+        />
+</resources>

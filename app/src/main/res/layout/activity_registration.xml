@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/w5"
+    tools:context=".RegistrationActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        android:elevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+
+            android:padding="24dp"
+            android:background="@drawable/layput_lavender">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Page"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="100dp"
+        android:id="@+id/text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="choose your interest"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:paddingLeft="100dp"
+        android:id="@+id/text1"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Microprocessors and Microcontrollers"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Advanced Programming"/>
+
+    </RadioGroup>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Name..."
+        android:textColorHint="@color/lavender"
+        android:layout_marginTop="15dp"
+        android:id="@+id/name"
+        android:padding="8dp"
+        android:minHeight="48dp"
+        android:background="@drawable/layput_lavender"
+        android:drawableLeft="@drawable/baseline_person_2_24"
+        />
+   <EditText
+       android:layout_width="match_parent"
+       android:minHeight="48dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:textColorHint="@color/lavender"
+       android:id="@+id/email"
+       android:drawableLeft="@drawable/baseline_mail_24"
+       android:background="@drawable/layput_lavender"
+       android:padding="8dp"
+       android:hint=" Email..."/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:minHeight="48dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layput_lavender"
+        android:id="@+id/password"
+        android:textColorHint="@color/lavender"
+        android:padding="8dp"
+        android:hint=" Password..."
+        android:drawableLeft="@drawable/baseline_lock_24"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/register1"
+        android:layout_marginTop="20dp"
+        android:text="Register"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

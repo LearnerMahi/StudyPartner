@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Study Meet</string>
+    <string name="bottom_nav">Bottom Navigation</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+</resources>
