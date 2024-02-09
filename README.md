@@ -1,1 +1,3 @@
-download this app and find you =r study partner
+download this app and find your study partner
+
+
